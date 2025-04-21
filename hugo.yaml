@@ -57,6 +57,25 @@ params:
     default: system # light | dark | system
     displayToggle: true
 
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+      repo: Kawaii-Chip/Kawaii-Chip.github.io
+      repoId: R_kgDOOct_QA
+      category: Announcements
+      categoryId: DIC_kwDOOct_QM4CpS-F
+      mapping: pathname # title | pathname | url
+      strict: false # true | false
+      reactionsEnabled: true
+      emitMetadata: true
+      inputPosition: top # top | bottom | none
+      theme: preferred_color_scheme # light | dark | dark_dimmed | preferred_color_scheme
+      lang: zh-CN
+      loading: lazy # lazy | eager
+      crossorigin: anonymous # anonymous | use-credentials
+      async: true # true | false
+
 # locale
 defaultContentLanguage: zh-cn
 languages:
