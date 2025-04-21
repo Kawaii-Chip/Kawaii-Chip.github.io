@@ -33,6 +33,7 @@ menu:
       url: "https://github.com/Kawaii-Chip"
       params:
         icon: github
+  # sidebar:
 
 params:
   navbar:
