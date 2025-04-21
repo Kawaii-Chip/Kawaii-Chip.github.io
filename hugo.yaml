@@ -18,13 +18,13 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - identifier: docs
       pageRef: /docs
       weight: 1
-    - name: About
+    - identifier: about
       pageRef: /about
       weight: 2
-    - name: Search
+    - identifier: search
       weight: 3
       params:
         type: search
