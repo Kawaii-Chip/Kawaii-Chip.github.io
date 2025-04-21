@@ -46,7 +46,7 @@ params:
       height: 40
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
