@@ -52,3 +52,7 @@ params:
   editURL:
     enable: true
     base: "https://github.com/Kawaii-Chip/Kawaii-Chip.github.io/edit/main/content"
+
+  theme:
+    default: system # light | dark | system
+    displayToggle: true
