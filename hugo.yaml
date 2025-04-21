@@ -40,7 +40,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: https://avatars.githubusercontent.com/u/208365602?s=200&v=4
+      path: assets/logo.png
       link: /
       width: 40
       height: 40
