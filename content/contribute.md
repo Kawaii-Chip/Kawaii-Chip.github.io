@@ -57,7 +57,7 @@ hugo new [<parent_folder>/]<page_name>.md
 
 这是新建后的文件树：
 
-> <parent_folder> 可以为空，这将会在 `content` 目录下直接创建 markdown 文件。
+> <parent_folder>/ 可以为空，这将会在 `content` 目录下直接创建 markdown 文件。
 > <page_name> 是路由名，建议言简意赅。
 
 {{< filetree/container >}}
