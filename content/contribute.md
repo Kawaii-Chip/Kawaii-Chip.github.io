@@ -11,18 +11,71 @@ date: 2025-04-21T20:50:39+08:00
 
 {{% steps %}}
 
+### 环境配置
+
+1. 安装 hugo ，参考[官网教程](https://gohugo.io/installation/)。
+2. 安装 Git ，参考[官网教程](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
+
+{{< callout type="info" >}}
+  Git 相关的配置以及初始化本文不再赘述。
+{{< /callout >}}
+
+```bash
+hugo version
+```
+
+若成功输出则已经安装。
+
+### 克隆仓库
+
+```bash
+git clone https://github.com/Kawaii-Chip/Kawaii-Chip.github.io.git Blog
+cd Blog
+```
+
 ### 新建页面
+
+`content` 目录用于存放页面的源文件，通常为 markdown 格式（ `.md` 结尾的文件）。
+
+这是刚开始的文件树：
+
+{{< filetree/container >}}
+  {{< filetree/folder name="content" >}}
+    {{< filetree/folder name="assets" state="closed" >}}
+      {{< filetree/file name="logo_ascii.txt" >}}
+      {{< filetree/file name="logo.png" >}}
+    {{< /filetree/folder >}}
+    {{< filetree/file name="_index.md" >}}
+    {{< filetree/file name="about.md" >}}
+    {{< filetree/file name="contribute.md" >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
 
 ```bash
 hugo new [<parent_folder>/]<page_name>.md
 ```
 
+这是新建后的文件树：
+
 > <parent_folder> 可以为空，这将会在 `content` 目录下直接创建 markdown 文件。
 > <page_name> 是路由名，建议言简意赅。
 
+{{< filetree/container >}}
+  {{< filetree/folder name="content" >}}
+    {{< filetree/folder name="assets" state="closed" >}}
+      {{< filetree/file name="logo_ascii.txt" >}}
+      {{< filetree/file name="logo.png" >}}
+    {{< /filetree/folder >}}
+    {{< filetree/file name="_index.md" >}}
+    {{< filetree/file name="about.md" >}}
+    {{< filetree/file name="contribute.md" >}}
+    {{< filetree/file name="page_name.md" >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
+
 ### 自定义页面属性
 
-编辑 `content/<page_name>.md` 。
+编辑 `content/page_name.md` 。
 
 在顶部有默认生成的 header ：
 
