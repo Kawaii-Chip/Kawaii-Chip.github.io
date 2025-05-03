@@ -4,7 +4,7 @@
 
 ## Info
 
-- Framwork: [Hugo](https://gohugo.io/)
+- Framework: [Hugo](https://gohugo.io/)
 - Theme: [Hextra](https://github.com/imfing/hextra)
 
 ## License
