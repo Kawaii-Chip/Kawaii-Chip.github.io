@@ -2,5 +2,4 @@
 title: "嵌入式"
 date: 2025-05-03T12:02:39+08:00
 weight: 2
-draft: true
 ---
